@@ -1,0 +1,294 @@
+@font-face {
+    font-family: 'SeoulNamsanM';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/SeoulNamsanM.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OTWelcomeRA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/OTWelcomeRA.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GowunBatang-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunBatang-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Binggrae-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/Binggrae-Bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Binggrae-Two';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Binggrae-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'HeirofLightRegular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/HeirofLightRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'S-CoreDream-3Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+.nanumgothic * {
+ font-family: 'Nanum Gothic', sans-serif;
+}
+
+@font-face {
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 400;
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot');
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf') format('truetype');
+   }
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #595858;
+}
+
+ul,ol{
+    list-style:none;
+}
+
+body{
+    font-family: "Noto Sans KR light";
+    font-size: 16px;
+}
+
+
+/*header*/
+
+#header{
+    background:rgba(255, 255, 255, 0.7);
+    height: 100px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+#header_inner{
+    margin: 0px auto;
+    width: 1320px;
+}
+
+.menu li a{
+    float: left;
+    padding-left: 100px;
+    padding-top: 56px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+.icon li a{
+    float: left;
+    padding-left: 40px;
+    padding-top: 56px;
+}
+
+.logo{
+    float: left;
+    padding-top: 10px;
+}
+
+.menu li{
+    float: left;
+}
+
+.icon li{
+    float: right;
+}
+
+
+/*mainbanner*/
+
+#main_banner{
+    background: url(images/main.jpg) no-repeat center center;
+    height: 942px;
+    position: relative;
+}
+
+#main_banner_i{
+    position: absolute;
+    top: 441px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+
+
+/*coupon*/
+
+#coupon{
+    text-align: center;
+    margin: 0 auto;
+    width: 1320px;
+    height: 540px;
+}
+
+#coupon h1{
+    font-family: 'OTWelcomeRA';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 54px;
+    color: #709468;
+    padding-top: 125px;
+}
+
+#coupon h3{
+    font-family: 'NanumBarunGothic';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 54px;
+    color: #585959;
+    padding-bottom: 64px;
+}
+
+#coupon span{
+    color: #c56e4c;
+    font-size: 60px;
+    font-family: 'OTWelcomeRA';
+}
+
+#coupon h2{
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+/*event*/
+
+#event{
+    margin: 0 auto;
+    width: 1320px;
+    height: 1400px;
+    padding-top: 320px;
+}
+
+#event h2{
+    float: left;
+    padding-bottom: 20px;
+}
+
+#event .ev{
+    padding-right: 20px;
+}
+
+#event>h2:hover{
+    transform:scale(1.05,1.05);
+    transition: all, 0.5;
+}
+
+
+/*footer*/
+
+#footer{
+    background-color: #ebebeb;
+    margin-top: 199px;
+}
+
+#footer_inner{
+    margin: 0 auto;
+    width: 1320px;
+    text-align: center;
+}
+
+.icon2{
+    display: inline-block;
+}
+
+.icon2 h1{
+    float: left;
+    padding: 30px 20px 5px 20px;
+}
+
+#footer h2{
+    font-family: 'HeirofLightRegular';
+    font-size: 18px;
+    color: #4e443b;
+}
+
+.contact h3{
+    font-family: 'OTWelcomeRA';
+    font-size: 14px;
+    float: left;
+    font-weight: normal;
+    padding: 30px 15px 10px 15px;
+    color: #4e443b;
+}
+
+.contact{
+    width: 513.03px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.info2{
+    width: 709px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.info2 h3{
+    font-family: 'OTWelcomeRA';
+    font-size: 14px;
+    float: left;
+    font-weight: normal;
+    line-height: 20px;
+    padding: 0px 5px 0px 5px;
+    color: #4e443b;
+}
+
+.info3{
+    display: inline-block;
+    padding-top: 5px;
+}
+
+.info3 h3{
+    font-family: 'OTWelcomeRA';
+    font-size: 14px;
+    float: left;
+    font-weight: normal;
+    padding: 0px 5px 10px 5px;
+    color: #4e443b;
+}
+
+#footer h4{
+    padding-bottom: 33px;
+}
+
+
+
+
+
+
+
